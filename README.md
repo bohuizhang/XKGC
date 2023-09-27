@@ -1,5 +1,13 @@
 # Explainable Knowledge Graph Construction Papers
 
+This repository aims to collect papers related to the topic of "eXplainable automatic Knowledge Graph Construction" (XKGC). 
+We categorize these works based on various tasks within XKGC, including knowledge extraction (entity and relation extraction), 
+knowledge integration (entity linking), knowledge completion (link prediction), etc. 
+- Our working paper which includes the analysis of the collected papers: [Towards Explainable Automatic Knowledge Graph Construction with Human-in-the-Loop](https://ebooks.iospress.nl/doi/10.3233/FAIA230091).
+- For in-depth task descriptions, please refer to the following two surveys on natural language processing and knowledge graph development.
+  - NLP: [A Decade of Knowledge Graphs in Natural Language Processing: A Survey](https://arxiv.org/abs/2210.00105)
+  - KGC: [Defining a Knowledge Graph Development Process Through a Systematic Review](https://dl.acm.org/doi/full/10.1145/3522586)
+
 ## Papers
 
 ### Entity Extraction
@@ -10,7 +18,7 @@
 - **Expert-Guided Entity Extraction using Expressive Rules** [SIGIR '19]
     - [[URL](https://dl.acm.org/doi/10.1145/3331184.3331392)]
 - **Instance-Based Learning of Span Representations: A Case Study through Named Entity Recognition** [ACL '20]
-    - [[URL]](https://arxiv.org/abs/2004.14514) [[GitHub](https://github.com/hiroki13/instance-based-ner)]
+    - [[URL](https://arxiv.org/abs/2004.14514)] [[GitHub](https://github.com/hiroki13/instance-based-ner)]
 - **Lightly-supervised Representation Learning with Global Interpretability** [Workshop on Structured Prediction for NLP '19]
     - [[URL](https://aclanthology.org/W19-1504/)]
 - **TriggerNER: Learning with Entity Triggers as Explanations for Named Entity Recognition** [ACL '20]
@@ -188,14 +196,31 @@
 - **Fast Computation of Explanations for Inconsistency in Large-Scale Knowledge Graphs** [WWW '20]
   - [[URL](https://dl.acm.org/doi/abs/10.1145/3366423.3380014)] [[GitHub](https://github.com/boschresearch/kg_inconsistency_explanation)]
 
-## Citation
+## Cite
+
 ```text
-@incollection{zhang2023towards,
-  title={Towards Explainable Automatic Knowledge Graph Construction with Human-in-the-Loop},
-  author={Zhang, Bohui and Mero{\~n}o Pe{\~n}uela, Albert and Simperl, Elena},
-  booktitle={HHAI 2023: Augmenting Human Intellect},
-  pages={274--289},
-  year={2023},
-  publisher={IOS Press}
+@inproceedings{zhang-et-al-2023-towards,
+  author       = {Bohui Zhang and
+                  Albert Mero{\~{n}}o{-}Pe{\~{n}}uela and
+                  Elena Simperl},
+  editor       = {Paul Lukowicz and
+                  Sven Mayer and
+                  Janin Koch and
+                  John Shawe{-}Taylor and
+                  Ilaria Tiddi},
+  title        = {{Towards Explainable Automatic Knowledge Graph Construction with Human-in-the-Loop}},
+  booktitle    = {{HHAI} 2023: Augmenting Human Intellect - Proceedings of the Second
+                  International Conference on Hybrid Human-Artificial Intelligence,
+                  June 26-30, 2023, Munich, Germany},
+  series       = {Frontiers in Artificial Intelligence and Applications},
+  volume       = {368},
+  pages        = {274--289},
+  publisher    = {{IOS} Press},
+  year         = {2023},
+  url          = {https://doi.org/10.3233/FAIA230091},
+  doi          = {10.3233/FAIA230091},
+  timestamp    = {Fri, 07 Jul 2023 23:30:40 +0200},
+  biburl       = {https://dblp.org/rec/conf/hhai/ZhangMS23.bib},
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
 }
 ```
